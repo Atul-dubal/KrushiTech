@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/logo"
+        android:title="Clear Chat"
+        android:tooltipText="Clear Chat"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/logo"
+        android:title="Export Chat"
+        android:tooltipText="Export Chat"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/logo"
+        android:title="End Session"
+        android:tooltipText="End Session"
+        app:showAsAction="always" />
+
+
+
+</menu>

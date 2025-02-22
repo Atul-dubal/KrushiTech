@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">कृषीटेक</string>
+    <string name="welcome_greet">स्वागत है</string>
+    <string name="nav_open" translatable="false">Open Drawer</string>
+    <string name="nav_close" translatable="false">Close Drawer</string>
+    <string name="by_continuing_you_agree_to_our_terms_amp_conditions_and_privacy_amp_legal_policy">जारी रखने से, आप हमारी शर्तों और गोपनीयता नीति से सहमत होते हैं।</string>
+    <string name="my_store">मेरा स्टोर</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="contact_us">संपर्क करें</string>
+    <string name="terms_and_conditions">नियम और शर्तें</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="profile_setting">प्रोफाइल सेटिंग्स</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="my_equipments">मेरे उपकरण</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="are_you_sure_logout">क्या आप सुनिश्चित हैं कि आप लॉगआउट करना चाहते हैं?</string>
+    <string name="delete_account">खाता हटाएं</string>
+    <string name="home">मुख्य पृष्ठ</string>
+    <string name="my_orders">मेरे ऑर्डर्स</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="select_app_language">ऐप भाषा चुनें</string>
+    <string name="language_marathi">मराठी</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_english">अंग्रेज़ी</string>
+
+    <string name="caategories">श्रेणियाँ</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="search">खोजें</string>
+    <string name="equipments">उपकरण</string>
+    <string name="fertilizers">उर्वरक</string>
+    <string name="seeds">बीज</string>
+    <string name="add_product">उत्पाद जोड़ें</string>
+    <string name="see_more">और देखें</string>
+    <string name="no_order_data_found">कोई ऑर्डर डेटा नहीं मिला</string>
+    <string name="purchase_something">कुछ खरीदें</string>
+    <string name="welcome_to_n_sadhanseva">साधनसेवा में आपका स्वागत है</string>
+    <string name="jay_jawan_jay_kisan">जय जवान जय किसान</string>
+    <string name="version_1_0_0" translatable="false">Version 1.0.0</string>
+    <string name="help">सहायता</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="COD_Alert">आपने नकद भुगतान (COD) विकल्प चुना है। कृपया सुनिश्चित करें कि डिलीवरी के समय आवश्यक राशि नकद में उपलब्ध हो। धन्यवाद!</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="wishlisted_equipments">इच्छित उपकरण</string>
+    <string name="general_settings">सामान्य सेटिंग्स</string>
+    <string name="account_settings">खाता सेटिंग्स</string>
+    <string name="manage_equipments">उपकरण प्रबंधित करें</string>
+    <string name="transactions">लेनदेन</string>
+    <string name="total_earning">कुल कमाई</string>
+    <string name="community">समुदाय</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="balance">बैलेंस : 0.0</string>
+    <string name="withdrawal_request_history">निकासी अनुरोध इतिहास</string>
+    <string name="wishlisted_products">विशलिस्टेड उत्पादने</string>
+    <string name="rate_app">ऐप को रेट करें</string>
+    <string name="legal_and_policies">कानूनी और नीतियां</string>
+    <string name="withdraw">निकालें</string>
+    <string name="get_help">मदद प्राप्त करें</string>
+    <string name="farmer">किसान</string>
+    <string name="follow_us_on">हमें फॉलो करें :-</string>
+    <string name="out_of_stock">स्टॉक खत्म</string>
+    <string name="product_description">उत्पाद विवरण</string>
+    <string name="near_by_products">आस-पास के उत्पाद</string>
+    <string name="solve_issues">समस्याएं हल करें</string>
+    <string name="my_activity">मेरी गतिविधि</string>
+    <string name="payments">भुगतान</string>
+    <string name="others">अन्य</string>
+
+    <string name="about_us_1"><![CDATA[
+    <b>हमारा मिशन:</b><br/>
+    - कृषि क्षेत्र में एक नया बदलाव लाना और एक आसान, किसान-हितैषी ऐप बनाना।<br/>
+    - हमारा ऐप किसानों को कृषि उत्पाद और उपकरण किराए पर देने, बेचने या खरीदने की सुविधा प्रदान करता है, जो उनके काम को बेहतर बनाने में मदद करता है। कृषि मशीनरी किराए पर लेना, बीज खरीदना, या अन्य कृषि उत्पाद प्राप्त करना—हमारे पास आपकी सभी खेती की जरूरतों के लिए एक विश्वसनीय समाधान है।
+    ]]></string>
+
+    <string name="about_us_2"><![CDATA[
+    <b>हम क्या करते हैं:</b><br/>
+    - हमारा ऐप किसानों और विक्रेताओं को जोड़ता है, जिससे कृषि मशीनरी किराए पर लेना या खरीदना, बीज और अन्य कृषि उत्पाद प्राप्त करना आसान हो जाता है।<br/>
+    - हम किसानों को आवश्यक संसाधन प्रदान करके उनकी उत्पादकता बढ़ाने में मदद करते हैं और विक्रेताओं को उनके व्यवसाय का विस्तार करने का अवसर देकर स्थानीय कृषि क्षेत्र का समर्थन करते हैं।
+    ]]></string>
+
+    <string name="about_us_3"><![CDATA[
+    <b>हमारी दृष्टि:</b><br/>
+    - हम एक स्थायी कृषि भविष्य की कल्पना करते हैं, जहां किसान आसानी से अपनी जरूरत के उपकरण और ज्ञान प्राप्त कर सकते हैं।<br/>
+    - हमारे ऐप के माध्यम से किसानों को आवश्यक संसाधन प्रदान करके, हम कृषि क्षेत्र में वृद्धि, नवाचार और दक्षता को बढ़ावा देने का लक्ष्य रखते हैं।
+    ]]></string>
+
+    <string name="about_us_4"><![CDATA[
+    <b>हमारी खासियत:</b><br/>
+    <b>- आसान पहुंच:</b> कृषि मशीनरी, बीज और अन्य उत्पादों के लिए एक ही प्लेटफॉर्म।<br/>
+    <b>- विश्वसनीय सेवा:</b> भरोसेमंद विक्रेताओं से उच्च गुणवत्ता वाले उत्पाद और उपकरण।<br/>
+    <b>- उपयोगकर्ता-अनुकूल इंटरफ़ेस:</b> किसानों की जरूरतों के अनुसार बनाया गया सरल और सहज अनुभव।<br/>
+    <b>- स्थानीय कृषि का समर्थन:</b> किसानों को सशक्त बनाकर स्थानीय कृषि व्यवसायों को बढ़ावा देना।
+    ]]></string>
+
+    <string name="terms_conditions_1"><![CDATA[
+<b>1. परिचय</b><br/>
+ये नियम और शर्तें SadhanSeva ऐप के उपयोग को नियंत्रित करती हैं।<br/>
+हमारे ऐप का उपयोग करके, आप इन शर्तों का पालन करने के लिए सहमति देते हैं।<br/>
+यदि आप सहमत नहीं हैं, तो कृपया ऐप का उपयोग न करें।
+]]></string>
+    <string name="terms_conditions_2"><![CDATA[
+<b>2. पात्रता</b><br/>
+ऐप का उपयोग करने के लिए उपयोगकर्ताओं की आयु 18 वर्ष या उससे अधिक होनी चाहिए।<br/>
+पंजीकरण करते समय सही और पूर्ण जानकारी प्रदान करना आपकी जिम्मेदारी है।
+]]></string>
+    <string name="terms_conditions_3"><![CDATA[
+<b>3. उपयोग दिशा-निर्देश</b><br/>
+उपयोगकर्ता ऐप का दुरुपयोग नहीं करेंगे, जैसे कि सेवाओं को नुकसान पहुंचाना, बाधा डालना या शोषण करना।<br/>
+अवैध, अपमानजनक, या हानिकारक सामग्री पोस्ट न करें।
+]]></string>
+    <string name="terms_conditions_4"><![CDATA[
+<b>4. सेवा सीमाएँ</b><br/>
+SadhanSeva सेवाओं को बिना पूर्व सूचना के संशोधित या बंद करने का अधिकार सुरक्षित रखता है।<br/>
+ऐप "जैसा है" आधार पर प्रदान किया गया है और किसी भी प्रकार की वारंटी नहीं है।
+]]></string>
+    <string name="terms_conditions_5"><![CDATA[
+<b>5. भुगतान और लेन-देन</b><br/>
+ऐप के माध्यम से किए गए सभी भुगतान हमारे भुगतान प्रोसेसर की शर्तों के अधीन हैं।<br/>
+भुगतान विवरण की सटीकता सुनिश्चित करना उपयोगकर्ता की जिम्मेदारी है।
+]]></string>
+    <string name="terms_conditions_6"><![CDATA[
+<b>6. जिम्मेदारी</b><br/>
+SadhanSeva ऐप के उपयोग से होने वाले किसी भी नुकसान के लिए जिम्मेदार नहीं है।<br/>
+उपयोगकर्ता अन्य उपयोगकर्ताओं (विक्रेताओं या किसानों) के साथ अपनी समझदारी और जिम्मेदारी के साथ बातचीत करते हैं।
+]]></string>
+    <string name="privacy_policy_1"><![CDATA[
+<b>1. डेटा संग्रह</b><br/>
+हम ऐप की कार्यक्षमता प्रदान करने के लिए नाम, ईमेल पते, स्थान, और भुगतान विवरण जैसे डेटा एकत्र करते हैं।<br/>
+पंजीकरण, लेनदेन और ऐप उपयोग के दौरान डेटा एकत्र किया जाता है।
+]]></string>
+    <string name="privacy_policy_2"><![CDATA[
+<b>2. डेटा उपयोग</b><br/>
+आपके डेटा का उपयोग लेन-देन को प्रोसेस करने, ऐप को बेहतर बनाने, और व्यक्तिगत अनुशंसाएं प्रदान करने के लिए किया जाता है।<br/>
+हम आपकी अनुमति के बिना आपका डेटा तृतीय पक्षों को नहीं बेचते या साझा नहीं करते हैं, जब तक कि कानून द्वारा आवश्यक न हो।
+]]></string>
+    <string name="privacy_policy_3"><![CDATA[
+<b>3. डेटा सुरक्षा</b><br/>
+हम आपकी व्यक्तिगत जानकारी की सुरक्षा के लिए उपाय लागू करते हैं।<br/>
+हालांकि, इंटरनेट पर प्रसारण की कोई भी विधि 100% सुरक्षित नहीं है।
+]]></string>
+    <string name="privacy_policy_4"><![CDATA[
+<b>4. उपयोगकर्ता अधिकार</b><br/>
+उपयोगकर्ता अपने व्यक्तिगत डेटा तक पहुँच, सुधार, या हटाने का अनुरोध कर सकते हैं।<br/>
+अनुरोध ऐप के Contact Us अनुभाग के माध्यम से जमा किए जा सकते हैं।
+]]></string>
+    <string name="privacy_policy_5"><![CDATA[
+<b>5. तृतीय-पक्ष सेवाएँ</b><br/>
+ऐप तृतीय-पक्ष सेवाएँ जैसे कि भुगतान गेटवे या एनालिटिक्स टूल का उपयोग कर सकता है।<br/>
+इन सेवाओं की अपनी गोपनीयता नीतियां हैं।
+]]></string>
+
+    <string name="i_agree_to_terms">मैंने नियम और शर्तों को पढ़ लिया है और पूरी तरह समझ लिया है, और इस ऐप का उपयोग जारी रखने के लिए उनका पालन करने के लिए सहमत हूं।</string>
+    <string name="accept">स्वीकार करें</string>
+    <string name="decline">अस्वीकार करें</string>
+    <string name="payment_summary">भुगतान सारांश</string>
+    <string name="total_payable_amount">कुल देय राशि</string>
+    <string name="use_online_payment">ऑनलाइन भुगतान करें</string>
+    <string name="use_cash_on_delivery">डिलीवरी पर नकद भुगतान करें</string>
+    <string name="continuebtn">जारी रखें</string>
+    <string name="equipmentprice">उपकरण मूल्य:</string>
+    <string name="quantity">मात्रा</string>
+    <string name="ServiceCharge">सेवा शुल्क (2.5%)</string>
+    <string name="TotalAmount">कुल राशि</string>
+    <string name="order_summary">आदेश सारांश</string>
+    <string name="product_name">उत्पाद का नाम :</string>
+    <string name="price">मूल्य :</string>
+    <string name="select_quantity">मात्रा चुनें :</string>
+    <string name="add_review">समीक्षा जोड़ें</string>
+    <string name="How_Was_Your_Experience_Poor">आपका अनुभव कैसा रहा? : खराब</string>
+    <string name="How_Was_Your_Experience_Fair">आपका अनुभव कैसा रहा? : ठीक-ठाक</string>
+    <string name="How_Was_Your_Experience_Good">आपका अनुभव कैसा रहा? : अच्छा</string>
+    <string name="How_Was_Your_Experience">आपका अनुभव कैसा रहा?</string>
+    <string name="How_Was_Your_Experience_Very_Good">आपका अनुभव कैसा रहा? : बहुत अच्छा</string>
+    <string name="How_Was_Your_Experince_Very_Excellent">आपका अनुभव कैसा रहा? : उत्कृष्ट</string>
+    <string name="review">समीक्षा</string>
+    <string name="submit">प्रस्तुत करें</string>
+    <string name="your_experience">आपका अनुभव</string>
+    <string name="see_product">उत्पाद देखें</string>
+    <string name="buy_now">अभी खरीदें</string>
+    <string name="MakePayment">भुगतान करें</string>
+    <string name="no_review_found_nfor_this_product">इस उत्पाद के लिए \nकोई समीक्षा नहीं मिली</string>
+    <string name="confirm_purchase_title">खरीद की पुष्टि करें</string>
+    <string name="Youhaveselected">आपने चुना है </string>
+    <string name="daysDoyouwanttoproceed">दिन। क्या आप आगे बढ़ना चाहते हैं?</string>
+    <string name="results_found">परिणाम मिले</string>
+    <string name="filters">फिल्टर</string>
+    <string name="location_radius">स्थान त्रिज्या</string>
+    <string name="reset_filter">रीसेट फिल्टर</string>
+    <string name="apply_filter">फिल्टर लागू</string>
+
+</resources>

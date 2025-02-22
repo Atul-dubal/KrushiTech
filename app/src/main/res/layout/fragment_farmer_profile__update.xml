@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/farmer_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.Farmer_Profile_Update_Fragment">
+
+    <ProgressBar
+        android:id="@+id/farmer_progress_bar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:elevation="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/farmer_avatar"
+        android:layout_marginBottom="30dp"
+        android:text="Farmer Profile"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/farmer_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/farmer_cardview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-50dp"
+        android:background="@color/black"
+        android:elevation="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/user_avatar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/farmer_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="50dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="User ID">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/farmer_user_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/farmer_full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="Email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/farmer_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/farmer_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender : "
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/gender_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/gender_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="State : "
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/farmer_state_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="User Type">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/farmer_user_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="farmer" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/farmer_profile_update_btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#056609"
+                android:text="Update" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/farmer_reach_us_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/farmer_cardview"
+        android:layout_marginTop="20dp"
+        android:text="If any Issue Reach Us"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/main"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:background="@color/white"-->
+    <!--    tools:context=".Upload_Product_Activity">-->
+
+    <!--    &lt;!&ndash;    <RelativeLayout&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="match_parent">&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;        <ImageView&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:scaleType="fitXY"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:src="@drawable/nature_bg" />&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;        <LinearLayout&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:background="#8C454444" />&ndash;&gt;-->
+    <!--    &lt;!&ndash;    </RelativeLayout>&ndash;&gt;-->
+
+    <!--    <ProgressBar-->
+    <!--        android:id="@+id/register_progress_bar"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:elevation="20dp"-->
+    <!--        android:visibility="gone" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_above="@+id/register_user_avatar"-->
+    <!--        android:layout_marginBottom="30dp"-->
+    <!--        android:text="Profile"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30dp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/register_user_avatar"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_above="@+id/register_cardview"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginBottom="-100dp"-->
+    <!--        android:background="@color/black"-->
+    <!--        android:elevation="10dp"-->
+    <!--        android:scaleType="fitXY"-->
+    <!--        android:src="@drawable/user_avatar" />-->
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/register_cardview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:layout_marginVertical="50dp"-->
+    <!--        android:elevation="20dp"-->
+    <!--        app:cardCornerRadius="20dp"-->
+    <!--        app:contentPadding="10dp">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginHorizontal="10dp"-->
+    <!--            android:layout_marginTop="50dp"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <com.google.android.material.textfield.TextInputLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:hint="Full Name">-->
+
+    <!--                <com.google.android.material.textfield.TextInputEditText-->
+    <!--                    android:id="@+id/profile_update_full_name"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:maxLines="1" />-->
+    <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--            <com.google.android.material.textfield.TextInputLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:hint="Phone Number">-->
+
+    <!--                <com.google.android.material.textfield.TextInputEditText-->
+    <!--                    android:id="@+id/profile_update_phone_number"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:inputType="number"-->
+    <!--                    android:maxLines="1" />-->
+    <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                >-->
+
+    <!--                <com.google.android.material.textfield.TextInputLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_marginRight="50dp"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:hint="Email">-->
+
+    <!--                    <com.google.android.material.textfield.TextInputEditText-->
+    <!--                        android:id="@+id/profile_update_email"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:editable="false"-->
+    <!--                        android:inputType="textEmailAddress"-->
+    <!--                        android:maxLines="1" />-->
+    <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--                <ImageButton-->
+    <!--                    android:id="@+id/changeEmail"-->
+    <!--                    android:layout_alignParentRight="true"-->
+    <!--                    android:layout_centerVertical="true"-->
+    <!--                    android:layout_width="50dp"-->
+    <!--                    android:layout_height="50dp"-->
+    <!--                    android:background="@android:color/transparent"-->
+    <!--                    android:src="@drawable/baseline_edit_24" />-->
+    <!--            </RelativeLayout>-->
+
+    <!--            <RadioGroup-->
+    <!--                android:id="@+id/radio_gender"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_margin="2dp"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Gender : "-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <RadioButton-->
+    <!--                    android:id="@+id/radio_male_btn"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Male" />-->
+
+    <!--                <RadioButton-->
+    <!--                    android:id="@+id/radio_female_btn"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Female" />-->
+
+    <!--            </RadioGroup>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="2dp"-->
+    <!--                    android:layout_marginEnd="30dp"-->
+    <!--                    android:text="State : "-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/spinner_states"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content" />-->
+    <!--            </LinearLayout>-->
+
+    <!--            &lt;!&ndash;            <com.google.android.material.textfield.TextInputLayout&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:hint="Password"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                app:passwordToggleEnabled="true">&ndash;&gt;-->
+
+    <!--            &lt;!&ndash;                <com.google.android.material.textfield.TextInputEditText&ndash;&gt;-->
+    <!--            &lt;!&ndash;                    android:id="@+id/register_password"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                    android:inputType="textPassword"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                    android:maxLines="1" />&ndash;&gt;-->
+    <!--            &lt;!&ndash;            </com.google.android.material.textfield.TextInputLayout>&ndash;&gt;-->
+
+    <!--            <com.google.android.material.button.MaterialButton-->
+    <!--                android:id="@+id/profile_update_btn"-->
+    <!--                android:layout_width="150dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:backgroundTint="#056609"-->
+    <!--                android:text="Update" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:id="@+id/reach_us_text"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_below="@id/register_cardview"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_marginTop="20dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:text="If any Issue Reach Us"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:textAlignment="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:textColor="@color/white"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:textSize="18dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:textStyle="bold" />&ndash;&gt;-->
+
+    <!--</RelativeLayout>-->

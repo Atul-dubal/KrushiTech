@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_white">#F4F5F9</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_dark">#6CC51D</color>
+    <color name="primary">#A2DA6C</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="red">#f00</color>
+    <color name="link">#1A0DAB</color>
+    <color name="border">#BFBFBF</color>
+    <color name="black">#000000</color>
+    <color name="dark_green">#124705</color>
+    <color name="shimmerColor">#DDDDDD</color>
+<color name="background_light_green">#CBF89E</color>
+<color name="light_line">#AAA7A7</color>
+</resources>

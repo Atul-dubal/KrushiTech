@@ -1,0 +1,189 @@
+<resources>
+
+    <string name="app_name">KrushiTech</string>
+    <string name="welcome_greet">Welcome</string>
+    <string name="nav_open" translatable="false">Open Drawer</string>
+    <string name="nav_close" translatable="false">Close Drawer</string>
+    <string name="by_continuing_you_agree_to_our_terms_amp_conditions_and_privacy_amp_legal_policy">By continuing, you agree to our Terms &amp; Conditions and Privacy &amp; Legal Policy.</string>
+    <string name="my_store">My Store</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="select_app_language">Select App Language</string>
+    <string name="profile">Profile</string>
+    <string name="profile_setting">Profile Settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="my_equipments">My Equipments</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="my_orders">My Orders</string>
+    <string name="caategories">Categories</string>
+    <string name="select_language">Select Language</string>
+    <string name="search">Search</string>
+    <string name="are_you_sure_logout">Are you sure you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="change_language">Change Language</string>
+    <string name="language_marathi">Marathi</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="language_english">English</string>
+
+    <string name="equipments">Equipments</string>
+    <string name="fertilizers">Fertilizers</string>
+    <string name="seeds">Seeds</string>
+    <string name="add_product">Add Product</string>
+    <string name="see_more">See More</string>
+    <string name="no_order_data_found">No Order Data Found</string>
+    <string name="purchase_something">Purchase Something</string>
+    <string name="welcome_to_n_sadhanseva">सुस्वागतम</string>
+    <string name="jay_jawan_jay_kisan">जय जवान जय किसान</string>
+    <string name="version_1_0_0" translatable="false">Version 1.0.0</string>
+    <string name="help">Help</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="COD_Alert">You have selected the Cash on Delivery (COD) option. Please ensure that the required amount is available in cash at the time of delivery. Thank you!</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="wishlisted_equipments">Wishlisted Equipments</string>
+    <string name="manage_equipments">Manage Equipments</string>
+    <string name="transactions">Transactions</string>
+    <string name="total_earning">Total Earning</string>
+    <string name="community">Community</string>
+    <string name="settings">Settings</string>
+    <string name="rate_app">Rate App</string>
+    <string name="legal_and_policies">Legal and Policies</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="get_help">Get Help</string>
+    <string name="farmer">Farmer</string>
+    <string name="follow_us_on">Follow Us On :-</string>
+    <string name="out_of_stock">Out Of Stock</string>
+    <string name="product_description">Product Description</string>
+    <string name="near_by_products">Near By Products</string>
+    <string name="solve_issues">Solve Issues</string>
+    <string name="my_activity">My Activity</string>
+    <string name="payments">Payments</string>
+    <string name="others">Others</string>
+
+
+    <string name="about_us_1"><![CDATA[
+    <b>Our Mission:</b><br/>- To bring a new change in the field of agriculture and create an easy-to-use, farmer-friendly application.<br/>- Our app provides facilities for farmers to rent, sell, or purchase farm produce and equipment, helping improve their work. Renting agricultural machinery, buying seeds, or obtaining other agricultural products—our app offers a reliable solution for all your farming needs.
+    ]]></string>
+
+    <string name="about_us_2"><![CDATA[
+    <b>What We Do:</b><br/>
+    - Our app connects farmers and vendors, making it easier to rent or purchase agricultural machinery, seeds, and other agricultural products.<br/>
+    - We help farmers increase their productivity by supplying essential resources and provide vendors an opportunity to expand their business, supporting the local agricultural sector.
+    ]]></string>
+
+    <string name="about_us_3"><![CDATA[
+    <b>Our Vision:</b><br/>- We envision a sustainable agricultural future where farmers can easily access the tools and knowledge they need.<br/>- By providing essential resources through our app, we aim to promote growth, innovation, and efficiency in the agricultural sector.
+    ]]></string>
+
+    <string name="about_us_4"><![CDATA[
+    <b>Why Choose Us:</b><br/>
+    <b>- Easy Access:</b> A single platform for accessing agricultural machinery, seeds, and other farming products.<br/>
+    <b>- Reliable Service:</b> High-quality products and equipment from trustworthy vendors.<br/>
+    <b>- User-Friendly Interface:</b> A simple and intuitive experience tailored to farmers needs.<br/>
+    <b>- Support for Local Agriculture:</b> Empowering farmers to help grow local agricultural businesses.
+    ]]></string>
+
+    <string name="terms_conditions_1"><![CDATA[
+    <b>1. Introduction</b><br/>
+    These Terms and Conditions govern your use of the SadhanSeva application. By accessing or using our app, you agree to comply with these terms. If you do not agree, please refrain from using the app.
+    ]]></string>
+    <string name="terms_conditions_2"><![CDATA[
+    <b>2. Eligibility</b><br/>
+    Users must be 18 years or older to register and use the app.<br/>
+    You are responsible for providing accurate and complete information during registration.
+    ]]></string>
+    <string name="terms_conditions_3"><![CDATA[
+    <b>3. Usage Guidelines</b><br/>
+    Users shall not misuse the app, including attempts to harm, exploit, or disrupt services.<br/>
+    Do not post illegal, abusive, or harmful content.
+    ]]></string>
+    <string name="terms_conditions_4"><![CDATA[
+    <b>4. Service Limitation</b><br/>
+    SadhanSeva reserves the right to modify or discontinue services without prior notice.<br/>
+    The app is provided on an "as-is" basis without warranties of any kind.
+    ]]></string>
+    <string name="terms_conditions_5"><![CDATA[
+    <b>5. Payments and Transactions</b><br/>
+    All payments made through the app are subject to our payment processor\'s terms.<br/>
+    Users are responsible for ensuring the accuracy of payment details.
+    ]]></string>
+    <string name="terms_conditions_6"><![CDATA[
+    <b>6. Liability</b><br/>
+    SadhanSeva shall not be liable for any damages arising from the use of the app.<br/>
+    Users interact with other users (vendors or farmers) at their own discretion and responsibility.
+    ]]></string>
+
+
+    <string name="privacy_policy_1"><![CDATA[
+    <b>1.Data Collection</b><br/>
+    We collect user data such as names, email addresses, location, and payment details to provide app functionality.<br/>
+    Data is collected during registration, transactions, and app usage.
+      ]]></string>
+    <string name="privacy_policy_2"><![CDATA[
+    <b>2.Data Usage</b><br/>
+    Your data is used to process transactions, improve the app, and provide personalized recommendations.<br/>
+    We do not sell or share your data with third parties without consent, except as required by law.
+      ]]></string>
+    <string name="privacy_policy_3"><![CDATA[
+    <b>3.Data Security</b><br/>
+    We implement measures to protect your personal information. However, no method of transmission over the internet is 100% secure.
+      ]]></string>
+    <string name="privacy_policy_4"><![CDATA[
+    <b>4.User Rights</b><br/>
+    Users can request access to, correction of, or deletion of their personal data.<br/>
+    Requests can be submitted through the Contact Us section in the app.
+      ]]></string>
+    <string name="privacy_policy_5"><![CDATA[
+    <b>5.Third-Party Services</b><br/>
+    The app may use third-party services like payment gateways or analytics tools. These services have their own privacy policies.
+  ]]></string>
+
+    <string name="i_agree_to_terms">I have read and fully understand the Terms and Conditions, and I agree to abide by them to continue using this application.</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="general_settings">General Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="wishlisted_products">Wishlisted Products</string>
+    <string name="balance">Balance : 0.0</string>
+    <string name="withdrawal_request_history">Withdrawal Request History</string>
+    <string name="payment_summary">PAYMENT SUMMARY</string>
+    <string name="total_payable_amount">Total Payable Amount</string>
+    <string name="use_online_payment">USE ONLINE PAYMENT</string>
+    <string name="use_cash_on_delivery">USE CASH ON DELIVERY</string>
+    <string name="continuebtn">CONTINUE</string>
+    <string name="equipmentprice">Equipment Price:</string>
+    <string name="quantity">Quantity</string>
+    <string name="ServiceCharge">Service Charge (2.5%)</string>
+    <string name="TotalAmount">Total Amount</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="product_name">Product Name :</string>
+    <string name="price">Price :</string>
+    <string name="select_quantity">Select Quantity :</string>
+    <string name="add_review">Add Review</string>
+    <string name="How_Was_Your_Experience_Poor">How Was Your Experience? : Poor</string>
+    <string name="How_Was_Your_Experience_Fair">How Was Your Experience? : Fair</string>
+    <string name="How_Was_Your_Experience_Good">How Was Your Experience? : Good</string>
+    <string name="How_Was_Your_Experience">How Was Your Experience?</string>
+    <string name="How_Was_Your_Experience_Very_Good">How Was Your Experience? : Very Good</string>
+    <string name="How_Was_Your_Experince_Very_Excellent">How Was Your Experience? : Excellent</string>
+    <string name="review">Review</string>
+    <string name="submit">Submit</string>
+    <string name="your_experience">Your Experience</string>
+    <string name="see_product">See Product</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="MakePayment">"Make Payment"</string>
+    <string name="no_review_found_nfor_this_product">No Review Found \nFor This Product</string>
+    <string name="confirm_purchase_title">Confirm Purchase</string>
+    <string name="Youhaveselected">You have selected </string>
+    <string name="daysDoyouwanttoproceed">days. Do you want to proceed?</string>
+    <string name="results_found">Results Found</string>
+    <string name="filters">Filters</string>
+    <string name="location_radius">Location Radius</string>
+    <string name="reset_filter">Reset Filter</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="CancelOrder">Cancel Order</string>
+    <string name="Are_you_sure_you_want_to_cancel_this_order">Are you sure you want to cancel this order?</string>
+</resources>
