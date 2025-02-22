@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProductDetailsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="1dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/product_images_layout"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="15dp"
+                android:background="@color/shimmerColor"
+                android:elevation="1dp"
+                android:orientation="horizontal"
+                android:scrollbars="horizontal" />
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_gravity="center_horizontal"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+
+            <!--                    <View-->
+            <!--                        android:layout_width="10dp"-->
+            <!--                        android:layout_height="10dp"-->
+            <!--                        android:backgroundTint="@color/black" />-->
+            <!--                </LinearLayout>-->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/product_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/product_images_layout"
+            android:layout_marginVertical="3dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginHorizontal="5dp"
+                android:background="@color/shimmerColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+
+                <View
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@color/shimmerColor"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@color/shimmerColor"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_name_layout"
+            android:layout_alignParentLeft="true"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/shimmerColor"
+            android:paddingVertical="10dp"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_price"
+            android:layout_alignParentLeft="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/shimmerColor"
+            android:paddingVertical="10dp"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_available_date"
+            android:layout_alignParentLeft="true"
+            android:layout_marginHorizontal="10dp"
+
+            android:layout_marginVertical="5dp"
+            android:background="@color/shimmerColor"
+            android:paddingVertical="10dp"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_location"
+            android:layout_marginHorizontal="10dp"
+            android:lines="1"
+            android:paddingVertical="10dp"
+            android:background="@color/shimmerColor"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_description"
+            android:layout_marginHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:lines="8"
+            android:layout_marginVertical="5dp"
+            android:background="@color/shimmerColor"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/shimmerColor"
+        android:layout_alignParentBottom="true"
+        android:elevation="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="140dp"
+            android:gravity="center"
+            android:backgroundTint="#B6AFAF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <View
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#5D5A5A" />
+
+    </RelativeLayout>
+</RelativeLayout>

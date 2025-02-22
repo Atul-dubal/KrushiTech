@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2EFEF"
+    tools:context=".Upload_Product_Activity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:backgroundTint="@color/primary_dark"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            app:iconTint="@color/black"
+            app:title="@string/app_name"
+            app:titleTextColor="@color/black">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+
+        <LinearLayout
+            android:id="@+id/product_images_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+
+                android:id="@+id/product_image_add_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/upload_product" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/product_images_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="horizontal"
+                android:scrollbars="horizontal"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/product_images_layout">
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginHorizontal="20dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:orientation="vertical">-->
+
+            <!--                <com.google.android.material.textfield.TextInputLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:hint="Product Name">-->
+
+            <!--                    <com.google.android.material.textfield.TextInputEditText-->
+            <!--                        android:id="@+id/product_name"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:maxLines="1" />-->
+            <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+            <!--                <com.google.android.material.textfield.TextInputLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:hint="Product Description">-->
+
+            <!--                    <com.google.android.material.textfield.TextInputEditText-->
+            <!--                        android:id="@+id/product_description"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                         />-->
+            <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginStart="2dp"-->
+            <!--                        android:layout_marginEnd="30dp"-->
+            <!--                        android:text="Category : "-->
+            <!--                        android:textStyle="bold" />-->
+
+            <!--                    <Spinner-->
+            <!--                        android:id="@+id/spinner_category"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content" />-->
+            <!--                </LinearLayout>-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:orientation="horizontal">-->
+
+            <!--                    <com.google.android.material.textfield.TextInputLayout-->
+            <!--                        android:layout_width="150dp"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginHorizontal="10dp"-->
+            <!--                        android:hint="Quantity">-->
+
+            <!--                        <com.google.android.material.textfield.TextInputEditText-->
+            <!--                            android:id="@+id/product_quantity"-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="wrap_content"-->
+            <!--                            android:inputType="number"-->
+            <!--                            android:maxLines="5" />-->
+            <!--                    </com.google.android.material.textfield.TextInputLayout>-->
+
+            <!--                    <com.google.android.material.textfield.TextInputLayout-->
+            <!--                        android:layout_width="150dp"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginHorizontal="10dp"-->
+            <!--                        android:hint="Price">-->
+
+            <!--                        <com.google.android.material.textfield.TextInputEditText-->
+            <!--                            android:id="@+id/product_price"-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="wrap_content"-->
+            <!--                            android:inputType="numberDecimal"-->
+            <!--                            android:maxLines="1" />-->
+            <!--                    </com.google.android.material.textfield.TextInputLayout>-->
+
+            <!--                </LinearLayout>-->
+
+            <!--                <com.google.android.material.textfield.TextInputLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:hint="Address">-->
+
+            <!--                    <com.google.android.material.textfield.TextInputEditText-->
+            <!--                        android:id="@+id/product_location"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:lines="3"-->
+            <!--                        android:maxLines="5" />-->
+            <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+            <!--                <com.google.android.material.button.MaterialButton-->
+            <!--                    android:id="@+id/new_equipment_upload_btn"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginHorizontal="30dp"-->
+            <!--                    android:layout_marginVertical="10dp"-->
+            <!--                    android:backgroundTint="@color/dark_green"-->
+            <!--                    android:text="Upload Equipment" />-->
+
+            <!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/product_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Product Name"
+                    android:maxLines="1" />
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/product_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Product Description" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="30dp"
+                        android:text="Category : "
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinner_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="30dp"
+                        android:text="Service Type : "
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/service_type_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/product_quantity"
+                        android:layout_width="120dp"
+
+                        android:layout_height="wrap_content"
+                        android:hint="Quantity"
+                        android:inputType="number"
+                        android:maxLines="1" />
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/product_price"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Price/Quantity"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:text="for equipments : Quantity is No. Of Available Equipments\nFor Seeds : Quantity is in KG\nFor Fertilizers : Quantity is in Liters/KG"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/fromDateBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select Date" />
+
+                    <Button
+                        android:id="@+id/ToDateBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select Date" />
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Address">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/product_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lines="3"
+                        android:maxLines="5" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:text="Current Location Coordinates:" />
+
+                <TextView
+                    android:id="@+id/location_cooridnates"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/new_equipment_upload_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginVertical="10dp"
+                    android:backgroundTint="@color/dark_green"
+                    android:text="Upload Equipment" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

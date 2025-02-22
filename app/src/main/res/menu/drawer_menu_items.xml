@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    <item-->
+    <!--        android:id="@+id/home"-->
+    <!--        android:icon="@drawable/img_8"-->
+    <!--        android:title="Home" />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/categories"-->
+    <!--        android:icon="@drawable/baseline_search_24"-->
+    <!--        android:title="Categories" />-->
+    <!--    <item-->
+    <!--        android:id="@+id/my_orders"-->
+    <!--        android:icon="@drawable/img_5"-->
+    <!--        android:title="My Orders" />-->
+    <!--    <item-->
+    <!--        android:id="@+id/account"-->
+    <!--        android:icon="@drawable/img_6"-->
+    <!--        android:title="Account" />-->
+
+    <!-- res/menu/drawer_menu.xml -->
+
+    <!--        <item-->
+    <!--            android:id="@+id/nav_store"-->
+    <!--            android:icon="@drawable/baseline_search_24"-->
+    <!--            android:title="माझे स्टोअर" />-->
+
+    <!--        <item-->
+    <!--            android:id="@+id/nav_mandi"-->
+    <!--            android:icon="@drawable/baseline_search_24"-->
+    <!--            android:title="मंडीचे दर" />-->
+
+    <!--        <item-->
+    <!--            android:id="@+id/nav_crop_info"-->
+    <!--            android:icon="@drawable/baseline_search_24"-->
+    <!--            android:title="पीक माहिती" />-->
+
+    <!--        <item-->
+    <!--            android:id="@+id/nav_weather"-->
+    <!--            android:icon="@drawable/baseline_search_24"-->
+    <!--            android:title="हवामान" />-->
+
+    <!--        <item-->
+    <!--            android:id="@+id/nav_video_feed"-->
+    <!--            android:icon="@drawable/baseline_search_24"-->
+    <!--            android:title="व्हिडिओ फीड" />-->
+
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/baseline_search_24"
+        android:title="आमच्याबद्दल" />
+
+    <item
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/baseline_search_24"
+        android:title="आमच्याशी संपर्क साधा" />
+
+    <item
+        android:id="@+id/nav_terms"
+        android:icon="@drawable/baseline_search_24"
+        android:title="नियम आणि अटी" />
+
+
+
+</menu>

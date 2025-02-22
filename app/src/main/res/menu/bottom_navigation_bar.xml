@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/marketplace_img"
+        android:title="Marketplace" />
+    <item
+        android:id="@+id/nearbyproducts"
+        android:icon="@drawable/baseline_gps_fixed_24"
+        android:title="NearBy" />
+    <item
+        android:id="@+id/my_orders"
+        android:icon="@drawable/shoping_cart_1"
+        android:title="@string/my_orders" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="@string/profile" />
+
+    <!-- res/menu/drawer_menu.xml -->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_store"-->
+<!--            android:icon="@drawable/baseline_search_24"-->
+<!--            android:title="माझे स्टोअर" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_mandi"-->
+<!--            android:icon="@drawable/baseline_search_24"-->
+<!--            android:title="मंडीचे दर" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_crop_info"-->
+<!--            android:icon="@drawable/baseline_search_24"-->
+<!--            android:title="पीक माहिती" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_weather"-->
+<!--            android:icon="@drawable/baseline_search_24"-->
+<!--            android:title="हवामान" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_video_feed"-->
+<!--            android:icon="@drawable/baseline_search_24"-->
+<!--            android:title="व्हिडिओ फीड" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_about_us"-->
+<!--            android:icon="@drawable/baseline_search_24"-->
+<!--            android:title="@string/about_us" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_contact_us"-->
+<!--            android:icon="@drawable/baseline_search_24"-->
+<!--            android:title="@string/contact_us" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_terms"-->
+<!--            android:icon="@drawable/baseline_search_24"-->
+<!--            android:title="@string/terms_and_conditions" />-->
+
+
+
+</menu>
