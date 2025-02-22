@@ -35,6 +35,7 @@ public class HomeFragment extends Fragment {
     ShimmerFrameLayout shimmerFrameLayout;
     RelativeLayout RealView;
     LinearLayout My_Orders, add_product_layout, see_more_layout, equipments_layout, fertilizers_layout, seeds_layout;
+    LinearLayout open_community_web, govt_schemes, tools_info, articles_layout, realtime_crop_status;
 
     public HomeFragment() {
     }
@@ -59,6 +60,45 @@ public class HomeFragment extends Fragment {
         seeds_layout = view.findViewById(R.id.seeds_layout);
         fertilizers_layout = view.findViewById(R.id.fertilizers_layout);
         shimmerFrameLayout.startLayoutAnimation();
+        open_community_web = view.findViewById(R.id.open_community_web);
+        govt_schemes = view.findViewById(R.id.govt_schemes);
+        tools_info = view.findViewById(R.id.tools_info);
+        articles_layout = view.findViewById(R.id.articles_layout);
+        realtime_crop_status = view.findViewById(R.id.realtime_crop_status);
+
+
+        realtime_crop_status.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(CommunityFragment.newInstance("https://soil-quality-system.vercel.app/"), 0);
+            }
+        });
+        articles_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(CommunityFragment.newInstance("https://krushimitra-psi.vercel.app/"), 0);
+            }
+        });
+        open_community_web.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(CommunityFragment.newInstance("https://chatforum-opal.vercel.app/"), 0);
+            }
+        });
+
+        govt_schemes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(CommunityFragment.newInstance("https://krushi-tech.vercel.app/"), 0);
+            }
+        });
+
+        tools_info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(CommunityFragment.newInstance("https://tools-iota.vercel.app/"), 0);
+            }
+        });
 
 //        equipments_recycleView_setup(view);
 //        fertilizers_recycleView_setup(view);
