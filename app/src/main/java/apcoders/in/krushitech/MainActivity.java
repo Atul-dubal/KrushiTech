@@ -18,6 +18,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,9 +36,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.google.android.gms.ads.nativead.MediaView;
-import com.google.android.gms.ads.nativead.NativeAd;
-import com.google.android.gms.ads.nativead.NativeAdView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -63,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements FragmentChangeLis
     private FrameLayout frameLayout;
     private ActionBarDrawerToggle actionBarDrawerToggle;
 
+    ImageButton chat_bot_btn;
     TextView terms_conditions_1, terms_conditions_2, terms_conditions_3, terms_conditions_4, terms_conditions_5, terms_conditions_6, privacy_policy_1, privacy_policy_2, privacy_policy_3, privacy_policy_4, privacy_policy_5;
     CheckBox checkBox;
     Button btnAccept;
@@ -72,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements FragmentChangeLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         // Initialize Views
         initializeViews();
@@ -88,8 +88,14 @@ public class MainActivity extends AppCompatActivity implements FragmentChangeLis
         setupBottomNavigation();
         // Check User Location Permission
         getUserLocation();
-    }
 
+        chat_bot_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ChatBotActivity.class));
+            }
+        });
+    }
 
 
     private void checkTermsAndConditionsStatus() {
@@ -160,6 +166,7 @@ public class MainActivity extends AppCompatActivity implements FragmentChangeLis
     }
 
     private void initializeViews() {
+        chat_bot_btn = findViewById(R.id.chat_bot_btn);
         frameLayout = findViewById(R.id.framelayout);
         followOnInstagram = findViewById(R.id.followOnInstagram);
         toolbar = findViewById(R.id.toolbar);
@@ -338,6 +345,7 @@ public class MainActivity extends AppCompatActivity implements FragmentChangeLis
         });
         super.onResume();
     }
+
     @Override
     public void changeFragment(Fragment fragment, int navItemId) {
         loadFragment(fragment, false);

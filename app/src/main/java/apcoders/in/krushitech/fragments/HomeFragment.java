@@ -23,6 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import apcoders.in.krushitech.ChatBotActivity;
 import apcoders.in.krushitech.R;
 import apcoders.in.krushitech.Upload_Product_Activity;
 import apcoders.in.krushitech.adapters.ViewpagerImageSliderAdapter;
@@ -35,7 +36,7 @@ public class HomeFragment extends Fragment {
     ShimmerFrameLayout shimmerFrameLayout;
     RelativeLayout RealView;
     LinearLayout My_Orders, add_product_layout, see_more_layout, equipments_layout, fertilizers_layout, seeds_layout;
-    LinearLayout open_community_web, govt_schemes, tools_info, articles_layout, realtime_crop_status;
+    LinearLayout open_community_web, govt_schemes, tools_info, articles_layout, realtime_crop_status, ai_chat_bot_layout;
 
     public HomeFragment() {
     }
@@ -65,12 +66,18 @@ public class HomeFragment extends Fragment {
         tools_info = view.findViewById(R.id.tools_info);
         articles_layout = view.findViewById(R.id.articles_layout);
         realtime_crop_status = view.findViewById(R.id.realtime_crop_status);
+        ai_chat_bot_layout = view.findViewById(R.id.ai_chat_bot_layout);
 
-
+        ai_chat_bot_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(requireActivity(), ChatBotActivity.class));
+            }
+        });
         realtime_crop_status.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadFragment(CommunityFragment.newInstance("https://soil-quality-system.vercel.app/"), 0);
+//                loadFragment(CommunityFragment.newInstance("https://soil-quality-system.vercel.app/"), 0);
             }
         });
         articles_layout.setOnClickListener(new View.OnClickListener() {
